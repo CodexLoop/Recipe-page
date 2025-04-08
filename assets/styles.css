@@ -81,23 +81,24 @@ a{
 /* RECIPE SECTION */
 
 .recipe__section{
-    justify-content: center;
     display: grid;
+    justify-content: center;
 
     font-size: var(--body-copy);
     font-weight: var(--thin);
-    
 }
 
 .recipe__container{
     position: relative;
     background-color: var(--white);
     justify-content: center;
+    margin: auto;
 
     border-radius: 1rem;
     margin-block: 5rem;
     padding: 2rem;
-    width: 700px;
+    max-width: 700px;
+    min-width: 350px;
 }
 
 .recipe__image{
